@@ -61,7 +61,7 @@ private void bing(int port) {
 - childHandler()设置子连接的Channel的Handler；
 - bind()及sync()绑定本地地址并同步返回绑定结果；
 
-2、 bing()调用流程
+2、 bind()调用流程
 ![](https://bugstack.cn/assets/images/pic-content/2019/08/netty-4-2-1.png)
 
 - 调用ServerBootstrap.bind()：应用调用ServerBootstrap的bind()操作；
